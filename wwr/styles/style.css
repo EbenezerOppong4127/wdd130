@@ -1,0 +1,111 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #fcfbfb;
+}
+
+/* Apply styles to the header */
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+/* Style navigation links */
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+/* Style the logo and icons */
+.logo, .icon {
+    width: 80px;
+}
+
+/* Style the hero image */
+#hero-img {
+    width: 100%;
+}
+
+/* Style the button elements */
+.book, .join {
+    width: 80px;
+     color: #d9c2a3;;
+
+}
+
+.book:hover, .join:hover {
+    background-color: black;
+
+}
+
+/* Center the content div */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Center various elements within their containers */
+nav a,
+#hero-msg h1, #hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+/* Add a background color to the background div */
+#background {
+    height: 725px;
+    background-color:#d9c2a3
+    /* Add background color here */
+}
+
+/* Style the message section */
+.msg {
+    /* Add background color here */
+    background-color: #6f7364;
+
+}
+
+/* Style the text inside the message section */
+.msg h2 {
+    text-align: center;
+}
+
+.msg p {
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    /* Add background color here */
+    background-color: #6f7364;
+}
+
+/* Style footer text */
+footer p {
+    font-size: 1.2em;
+    color: #d9c2a3;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #d9c2a3;
+
+}
+
+
+footer p a:hover {
+    color: #d9c2a3;
+}
