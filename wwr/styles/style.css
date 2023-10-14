@@ -1,4 +1,6 @@
 /* Reset default margin and padding for all elements */
+
+/* Import Fonts */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,10 @@
 /* Set a background color for the body */
 body {
     background-color: #fcfbfb;
+    font-family:  Arial, sans-serif,Lato, "Lucida Grande", Tahoma, Sans-Serif,Raleway;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Apply styles to the header */
@@ -20,6 +26,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -31,6 +38,13 @@ nav a:hover {
 .logo, .icon {
     width: 80px;
 }
+.icon {
+    padding-top: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
 
 /* Style the hero image */
 #hero-img {
@@ -39,8 +53,14 @@ nav a:hover {
 
 /* Style the button elements */
 .book, .join {
-    width: 80px;
-     color: #d9c2a3;;
+    width: 123px;
+    font-size: 18px;
+    padding: 10px ;
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -74,6 +94,9 @@ main section {
 .msg {
     /* Add background color here */
     background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+
 
 }
 
@@ -81,31 +104,65 @@ main section {
 .msg h2 {
     text-align: center;
 }
+h2 {
+    margin: 0;
+}
 
 .msg p {
     text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 /* Style the footer */
 footer {
     /* Add background color here */
     background-color: #6f7364;
+    padding: 25px 50px;
 }
 
 /* Style footer text */
 footer p {
     font-size: 1.2em;
     color: #d9c2a3;
+    padding: 25px 50px;
 }
 
 
 footer a {
     text-decoration: none;
     color: #d9c2a3;
+    margin-top: 200px;
 
 }
-
+footer .social img {
+    padding-top: 15px;
+}
 
 footer p a:hover {
     color: #d9c2a3;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+.home-title {
+    margin-top: 10px;
+    font-family: 'Pacifico', cursive;'Palatino Linotype', 'Book Antiqua', serif;
+    font-size: 2em;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountains{
+    margin-top: 179px;
+    margin-bottom: 95px;
+    width: 581px;
+
 }
