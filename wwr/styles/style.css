@@ -157,9 +157,9 @@ main section img {
 }
 .home-title {
     margin-top: 10px;
-    font-family: 'Pacifico', cursive;'Palatino Linotype', 'Book Antiqua', serif , "Gill Sans", sans-serif;
-    font-size: 2em;
-    color: #d9c09e
+    font-family: 'Pacifico', cursive;
+    color: bisque;
+    font-size: 70px;
 }
 
 .rivers-card, .camping-card, .rapids-card {
