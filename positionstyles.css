@@ -2,33 +2,55 @@
 /* Activity 1 styles */
 .content1 {
   /* This is the parent of the activity 1 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 50px;
 
 }
-.red1 { 
-  width: 100px; 
+.red1 {
+
+  /*width: 100px;*/
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
 
 } 
 .green1 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin-top: 25px;
+  justify-self: center;
+  padding: 94px;
+
+  /*grid-column-start: 1;*/
+  /*grid-column-end: 2;*/
 
 } 
 .yellow1 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  margin-top: 25px;
+  justify-self: center;
+  padding: 94px;
 } 
 .blue1 {
-  width: 100px; 
+  /*width: 100px;*/
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  margin-top: 25px;
+  grid-column-start: 1;
+  grid-column-end: 3;
 } 
-/* Activity 2 styles */ 
+
+/* Activity 2 styles */
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  gap: -10px;
+
 }
 .red2 {
   width: 100px; 
@@ -38,118 +60,175 @@
 .green2 { 
   width: 100px; 
   height: 100px; 
-  background-color: green; 
+  background-color: green;
+  margin-top: -50px;
+  margin-left: 50px;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  margin-top: -50px;
+  margin-left: 100px;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  margin-top: -50px;
+  margin-left: 150px;
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+
 }
 .red3 {
-  width: 100px; 
+  /*width: 100px; */
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
 } 
 .green3 {
-  width: 100px; 
+  width: 95%;
   height: 100px; 
   background-color: green;
+  justify-self: flex-start
+  /*padding: 94px;*/
+
+
 } 
 .yellow3 {
-  width: 100px; 
+  width: 95%;
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  justify-self: flex-end;
+  /*padding: 94px;*/
 } 
 .blue3 {
-  width: 100px;
+  /*width: 100px;*/
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  grid-column-start: 1;
+  grid-column-end: 3;
 } 
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
-  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  /*height: 400px;*/
 }
 .red4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
+  width: 100%;
+  /*height: 100px;*/
+  background-color: red;
+  grid-row-start: 1;
+  grid-row-end: 4;
 } 
 .green4 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 100%;
+
+  height: 100px;
+  background-color: green;
+  grid-column-start:2
+
 } 
 .yellow4 {
-  width: 100px; 
+  width: 100%;
   height: 100px; 
-  background-color: gold; 
+  background-color: gold;
+  grid-column-start:2
 } 
 .blue4 {
-  width: 100px; 
+  width: 100%;
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+  grid-column-start:2
 } 
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+
 }
 .red5 { 
-  width: 100px; 
+  /*width: 150%;*/
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+
 } 
 .green5 { 
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  float: inline-start;
 
 } 
 .yellow5 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  height: 213px;
+  background-color: gold;
+
+
 
 } 
 .blue5 {
-  width: 100px; 
+  /*width: 150%;*/
   height: 100px; 
-  background-color: blue; 
+  background-color: blue;
+
 } 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: red; 
+  width: 316px;
+  height: 153px;
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding-right: 171px;
+  padding-left: 49px;
+  padding-top: 57px
 } 
 .green6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: green; 
+  width: 100px;
+  height: 197px;
+  background-color: green;
+  grid-row-end: 3;
+  padding-right: 173px;
+  padding-top: -4px;
+  margin-top: -85px;
+  position: relative;
 } 
 .yellow6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: gold; 
+  width: 279px;
+  /* height: 435px; */
+  background-color: gold;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  position: relative;
+  margin-top: -226px;
+  margin-left: -225px;
+
 } 
 .blue6 {
-  width: 100px; 
-  height: 100px; 
-  background-color: blue; 
-} 
+  width: 398px;
+  height: 371px;
+  background-color: blue;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  margin-top: 92px;
+  margin-left: -313px;
+
+}
 
 
 /* Do not make any changes below here */
