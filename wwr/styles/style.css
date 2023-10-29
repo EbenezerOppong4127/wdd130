@@ -94,20 +94,10 @@ main section {
 }
 
 /* Add a background color to the background div */
-#background {
-    height: 725px;
-    background-color:#d9c2a3
-    /* Add background color here */
-}
+
 
 /* Style the message section */
-.msg {
-    background-color: #6f7364;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 
 /* Style the text inside the message section */
 .msg h2 {
@@ -159,6 +149,7 @@ footer p a:hover {
 }
 
 .card-img {
+    width: 100%;
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
@@ -183,19 +174,9 @@ main section img {
     font-family: emoji ,"Gill Sans", sans-serif,Georgia, serif;
 }
 
-/*.mountains{*/
-/*    margin-top: 179px;*/
-/*    margin-bottom: 95px;*/
-/*    width: 581px;*/
 
-/*}*/
 
-.mountains {
-    width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 
 .subtitle{
     margin-top: 88px;
@@ -224,12 +205,8 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 }
-.card-img, .mountains {
-    width: 100%;
-    border: 10px solid #d9c2a3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
+
 
 
 /* Main Section */
@@ -252,22 +229,36 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.msg {
+    background-color: #6f7364;
+    padding: 35px;
+    grid-column: 7 / 11; /* Position in columns 7–10 (right) */
+    grid-row: 3 / span 4; /* Position in rows 3–7 (center) */
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -442px;
+    float: none;
+}
+
 
 #background {
-    grid-column: 1/11;
-    grid-row: 4/9;
+    height: 725px;
+    background-color: #d9c2a3;
+    display: grid;
+    grid-column: 1/10; /* Cover all columns */
+    grid-row: 1/8; /* Cover all rows */
 }
 
 .mountains {
+    /*width: 100%; !* To make sure the image covers the entire centered content *!*/
     grid-column: 2/7;
     grid-row: 5/8;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
-
-.msg {
-    grid-column: 6/10;
-    grid-row: 6/7;
-}
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
