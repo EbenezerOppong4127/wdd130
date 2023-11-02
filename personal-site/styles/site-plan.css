@@ -25,6 +25,8 @@ Fonts are separated by a & */
     --nav-background-color: #396E94;
     --nav-hover-link-color: #D7901B;
     --nav-hover-background-color: #396E94;
+    --paragraph-color:white;
+
 }
 
 
@@ -108,7 +110,6 @@ nav  {
     display: flex;
 }
 nav a {
-    padding:1em;
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
