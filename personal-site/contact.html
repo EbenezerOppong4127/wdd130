@@ -22,61 +22,42 @@
     </header>
 
 
-    <main class="home-grid">
-        <section class="rivers-card">
-            <img class="card-img" src="images/pic1.jpg" alt="selected players">
-            <img class="icon" src="images/icon1.jpg" alt="players icon">
-            <h2>Players country</h2>
-            <p>The 2023 Africa Cup of Nations qualification matches were organised by the Confederation of African Football (CAF) to decide the participating teams of the 2023 Africa Cup of Nations in Ivory Coast, the 34th edition of the international men's football championship of Africa. A total of 24 teams qualified to play in the final tournament, including Ivory Coast, who qualified automatically as hosts.</p>
-        </section>
-        <section class="camping-card">
-            <img class="card-img" src="images/pic2.jpg" alt="ivory coat">
-            <img class="icon" src="images/icon2.jpg" alt="organiser icon">
-            <h2>Organiser</h2>
-            <p>Abidjan is the largest city and the economic capital of the Ivory Coast. As of the 2021 census, Abidjan's population was 6.3 million,which is 21.5 percent of overall population of the country, making it the sixth most populous city proper in Africa, after Lagos, Cairo, Kinshasa, Dar es Salaam, and Johannesburg. A cultural crossroads of West Africa, Abidjan is characterised by a high level of industrialisation and urbanisation. It is also the most populous French-speaking city in Africa .</p>
-        </section>
-        <section class="rapids-card">
-            <img class="card-img" src="images/pic3.jpg" alt="hp staduim">
-            <img class="icon" src="images/icon3.jpg" alt="cup icon">
-            <h2>Host cities and Stadiums</h2>
-            <p>
-                Abidjan: (Alassane Ouattara Stadium and Félix Houphouët-Boigny Stadium)
-
-                The economic hub, Abidjan will have two stadiums: Alassane Ouattara Stadium and Félix Houphouët-Boigny Stadium.
-
-                Abidjan is home to almost six million people.
-
-                The Alassane Ouattara Stadium will host the opening match on 13 January 2024 and the final of the competition on 11 February 2024.
-
-                In preparation for the competition, the Félix Houphouët-Boigny Stadium underwent major renovations, including upgrades to its structure, seating, and turf. The stadium now has a seating capacity of 29,000.
-
-                It will host Cote d’Ivoire next friendly on 14 October 2023 – the match will be used as a test event.
-            </p>
-
-            <br>
-            <p>Bouaké: (Stade De La Paix)
-                Bouaké, along with Abidjan, served as a host city for the 1984 Africa Cup of Nations. It is located in the central part of the country, 350 km from the economic capital, and 100 km from Yamoussoukro, the political capital.</p>
-            <br>
-            <p>
-                Korhogo: (Stade Amadou Gon Coulibaly)
-                Korhogo, known as the "Pôrô" city, named after a tradition of the local Sénoufo ethnic group, is the capital of the Savanes region.
-
-                It is located approximately 207 km from Mali and 242 km from Burkina Faso, with an estimated population of around 300,000 inhabitants.
-            </p>
-        </section>
-        <div id="background">
-            <img class="mountains" src="images/back.jpg" alt="nations cup">
+    <div class="containerContact">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <div>
+                <p><strong>Address:</strong><br>225 Main Street<br>Abidjan, Ivory Cost</p>
+                <p><strong>Phone:</strong><br>+225 0748207315</p>
+                <p><strong>Email:</strong><br>contact@gmail.com</p>
+            </div>
+            <div class="map">
+                <!-- Replace this with your Google Maps embedded link -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.020909617997!2d-3.9845044852347122!3d5.413785596073511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x363f539974480aec!2zNcKwMjQnNDkuNiJOIDPCsDU4JzU2LjMiVw!5e0!3m2!1sen!2sci!4v1656120511499!5m2!1sen!2sci" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
-        <section class="msg">
-            <h2>More Than Just The Thrill</h2>
-            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
-            <a class='join' href="/rivers">Join Us</a>
-        </section>
-
-    </main>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="submit-button" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <br>
     <footer>
-        <p>Africa Cup © 20XX - Tro Opong</p>
+        <p>Africa Cup ©<span id="current-year"></span> - Tro Opong</p>
         <p><a href="index.html">Home</a></p>
         <p><a href="contact.html">Contact Us</a></p>
         <div class="social">
