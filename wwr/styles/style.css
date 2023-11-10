@@ -1,5 +1,58 @@
 /* Reset default margin and padding for all elements */
 
+.text{
+    font-family: auto;
+    text-align: -webkit-center;
+    margin-top: 25px;
+}
+
+.subpage-title{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d9c2a3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #d9c2a3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
 /* Import Fonts */
 * {
     margin: 0;
