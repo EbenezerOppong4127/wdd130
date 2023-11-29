@@ -2,7 +2,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Righteous+Montserrat+Merriweather&display=swap');
+
 
 :root {
     /* change the values below to your colors from your palette */
@@ -12,7 +13,7 @@ Fonts are separated by a & */
     --accent2-color: #0c54b4;
 
     /* change the values below to your chosen font(s) */
-    --heading-font: Grandstander;
+    --heading-font: Righteous, Arial, sans-serif;
     --paragraph-font: "Open Sans", Helvetica, sans-serif;
 
     /* these colors below should be chosen from among your palette colors above */
