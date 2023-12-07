@@ -359,5 +359,164 @@ footer img {
 /*Second page css */
 
 
+/*third page css*/
+
+
+.section-third {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: 0;
+    margin-left: 20%;
+}
+
+.section-third-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius to the image */
+    background-color: #0c54b4;
+    padding: 20px;
+}
+
+.section-third-circle-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66%;
+    height: 77%;
+    border-radius: 50%;
+    background-color: #d7901b;; /* Circle background color */
+    color: #fff; /* Circle text color */
+    font-size: 18px;
+}
+
+
+.carousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.carousel-items {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    /*flex: 0 0 auto;*/
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.carousel-item img {
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.carousel-button {
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 0 5px; /* Adjust the margin as needed */
+    transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: #ddd;
+}
+
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.text-container-thirds {
+    width: 60%; /* Adjust based on your layout */
+    height: 50%; /* Adjust based on your layout */
+    border: 1px solid #ccc;
+    overflow: hidden; /* Hide overflowed content */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.text-content-thirds {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.third-sub-title{
+    color: green !important;
+}
+
+/*third page css*/
+
+
 
 
