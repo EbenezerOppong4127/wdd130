@@ -518,6 +518,16 @@ footer img {
 
 /*third page css*/
 
+@media only screen and (max-width: 1400px) {
 
+    .section-third-img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        background-color: #0c54b4;
+        padding: 20px;
+        margin-left: -66px;
+    }
+}
 
 
