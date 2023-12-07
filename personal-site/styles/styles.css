@@ -379,6 +379,7 @@ footer img {
     border-radius: 10px; /* Optional: Add border radius to the image */
     background-color: #0c54b4;
     padding: 20px;
+    margin-left: -66px;
 }
 
 .section-third-circle-text {
